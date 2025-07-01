@@ -102,7 +102,7 @@ def visualize_ratings_distribution(file_path):
         plt.ylabel('Number of Movies/Shows')
         plt.xticks(rotation=45)
         plt.tight_layout()
-        plt.savefig("ratings_dist.png") # Save the plot as an image for later use
+        #plt.savefig("ratings_dist.png") # Save the plot as an image for later use
         plt.show()
     except Exception as e:
         print(f"Error visualizing ratings from {file_path}: {e}")

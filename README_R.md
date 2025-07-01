@@ -9,6 +9,9 @@ Nexford - Programming in R and Python, Module 4 Assignment
 
 ### Usage
 ```bash
+python netflix_data_processor.py
+```
+```bash
 Rscript netflix_data_processor.r
 ```
 
